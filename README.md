@@ -3,8 +3,13 @@
 ## Usage Example
 
 ```powershell
-PS > .\get-spf -Domain example.com -OutputPath .\spf.csv
+PS > .\get-spf -Domain example.com -OutputPath C:\spf.csv
 ```
+
+```powershell
+PS > .\get-spf -DomainList .\domains.txt -OutputPath C:\spf.csv
+```
+
 ## Example `DomainsList` file
 The content of the file containing the domains to check should have a single domain on each line, as follows:
 ```
