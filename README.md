@@ -30,3 +30,5 @@ example.org
 
 ## DKIM
 In order to get the correct information for DKIM records, you will need to know what the selector for the record is. Generally, this can be found in the email header or from the service that is configured to sign messages with DKIM.
+
+The scripts only work with Windows as they rely on commands that are not included with the Powershell Core distribution.
