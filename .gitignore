@@ -11,7 +11,6 @@ DMARC_Records.csv
 dmarc.csv
 dmarc.py
 dmarc.txt
-domains.txt
 spf_domains.txt
 spf_records.csv
 SPF.py
