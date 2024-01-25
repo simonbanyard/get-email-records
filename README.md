@@ -29,4 +29,4 @@ example.org
 |OutputPath|Output path and file name. Defaults to `{recordType}_records.csv`|No|
 
 ## DKIM
-In order to get the correct information for DKIM records, you will need to know what the selector for the record is. Generally, this can be found in the email header or in the service that is configured to sign messages with DKIM.
+In order to get the correct information for DKIM records, you will need to know what the selector for the record is. Generally, this can be found in the email header or from the service that is configured to sign messages with DKIM.
