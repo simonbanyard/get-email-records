@@ -1,4 +1,5 @@
 # FILEPATH: get-dmarc.ps1
+Set-ExecutionPolicy unrestricted
 
 param (
     [string]$Domain,
@@ -16,7 +17,7 @@ function Get-DMARCRecord([string]$domain) {
         Domain     = $domain
         DMARC_Record = $null
     }
-    
+
     if ($record) {
         $obj.DMARC_Record = $record.Strings -join " "
     } else {

@@ -1,4 +1,5 @@
 # FILEPATH: get-spf.ps1
+Set-ExecutionPolicy unrestricted
 
 param (
     [string]$Domain,

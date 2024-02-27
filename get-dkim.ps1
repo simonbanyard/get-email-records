@@ -1,4 +1,5 @@
 # FILEPATH: get-dkim.ps1
+Set-ExecutionPolicy unrestricted
 
 param (
     [string]$Domain,
@@ -15,7 +16,7 @@ function Get-DKIMRecord([string]$domain) {
         Domain     = $domain
         DKIM_Record = $null
     }
-    
+
     if ($record) {
         $obj.DKIM_Record = $record.Strings -join " "
     } else {
